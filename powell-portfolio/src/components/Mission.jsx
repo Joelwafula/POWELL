@@ -1,11 +1,12 @@
 
 const Mission = () => {
   return (
-   <section className="flex flex-row mb-20">
-    <div className="ml-10">
-        <div className="justify-center items-center mb-5"><img
+   <section  id="mission" className="flex flex-col p-2 md:flex md:flex-row ">
+    <div >
+        <div className="justify-center items-center mb-5  "><img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ4q7oqhvRlsMbnAQiB5CTq9JJNMHZA5Ulzg&usqp=CAU"
     // src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqWWtNiyXIrB4i5DOLbxW_XNAC4Xq_8E5KJeDNDyyM0zwwnfJwiv-X69eQl6jGxKu81Q&usqp=CAU'
+    className="h-10"
     /></div>
         <ul className="list-disc list-inside  text-wrap  text-lg max-w-50 indent-5  max-w-50 font-serif">
             <li>Empowering businesses through strategic marketing consultancy</li>
@@ -16,7 +17,7 @@ const Mission = () => {
            
         </ul>
     </div>
-    <div className="w-1/2 h-80 p-20">
+    <div className="mb-15 w-50 h-40 sm:w-50 md:w-1/2 sm:h-80 sm:p-5">
 
     <img src="https://rb.gy/rexhy8"
     
