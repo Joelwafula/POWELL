@@ -1,4 +1,4 @@
-import Contacts from "./components/Contacts"
+// import Contacts from "./components/Contacts"
 import Hero from "./components/Hero"
 import Mission from "./components/Mission"
 
@@ -18,7 +18,7 @@ const App = () => {
       <Services/>
       <Mission/>
       <Vision/>
-      <Contacts/>
+      {/* <Contacts/> */}
       
     </div>
     </BrowserRouter>
