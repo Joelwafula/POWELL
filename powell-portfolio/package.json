@@ -5,6 +5,7 @@
    "homepage": "https://Joelwafula.github.io/POWELL",
   "type": "module",
   "scripts": {
+    "start":"node index.js",
    
     "dev": "vite",
     "build": "vite build --outDir build",
